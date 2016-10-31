@@ -1,0 +1,111 @@
+.timeblock {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.timevalue {
+    font-size: 100px;
+}
+.actionblock {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.lapblock {
+    margin-top: 135px;
+    max-height: 320px;
+    overflow-y: auto;
+    color: #EBEBEB;
+}
+.lapheader {
+    font-size: 20px;
+    border-bottom: 1px solid #464545;
+}
+.lapheaderblock {
+    padding-bottom: 10px;
+}
+.lapheaderleft {
+    font-weight: bold;
+}
+.laprownum {
+    padding-right: 10px;
+}
+.laprow {
+    border: 0px;
+    padding: 10px 0px;
+    background-color: transparent;
+}
+.laprowlap {
+    font-weight: bold;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .timeblock {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        padding-top: 40px;
+    }
+    .timevalue {
+        font-size: 80px;
+    }
+    .actionblock {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .lapblock {
+        margin-top: 0px;
+        max-height: 320px;
+        overflow-y: auto;
+        color: #EBEBEB;
+        padding: 0% 20%
+    }
+}
+@media (max-width: 767px) {
+    .timeblock {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    .timevalue {
+        font-size: 50px;
+    }
+    .actionblock {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .actionblock button {
+        padding: 10px 18px;
+    }
+    .lapblock {
+        margin-top: 0px;
+        max-height: 320px;
+        overflow-y: auto;
+        color: #EBEBEB;
+        padding: 0% 10%
+    }
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
